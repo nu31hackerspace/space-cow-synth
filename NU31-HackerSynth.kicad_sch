@@ -5517,20 +5517,26 @@
 		(uuid "292ef496-a6e0-4ce4-b23f-cfe98f17efb4")
 	)
 	(no_connect
-		(at 109.22 441.96)
-		(uuid "3a9c5018-c643-4741-ae56-c4113232ef17")
+		(at 83.82 381)
+		(uuid "3392fa18-b0c8-46f4-a12d-e2b6113ab011")
 	)
 	(no_connect
-		(at 43.18 360.68)
-		(uuid "8c0d80f1-64e6-4de2-bd05-e60dea57c379")
+		(at 109.22 441.96)
+		(uuid "3a9c5018-c643-4741-ae56-c4113232ef17")
 	)
 	(no_connect
 		(at 83.82 386.08)
 		(uuid "8d75e761-b594-4545-8870-35f912f86226")
 	)
-	(no_connect
-		(at 58.42 360.68)
-		(uuid "e2e9edf6-d947-48cf-aa60-e8c17f98c36b")
+	(wire
+		(pts
+			(xy 49.53 360.68) (xy 58.42 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0014b5a9-d6ec-489b-a6c2-2b77fb396c7f")
 	)
 	(wire
 		(pts
@@ -5984,6 +5990,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 367.03) (xy 49.53 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd02e5e-619e-457b-937f-08d05475b1c0")
+	)
+	(wire
+		(pts
 			(xy 74.93 492.76) (xy 74.93 502.92)
 		)
 		(stroke
@@ -6301,6 +6317,16 @@
 			(type default)
 		)
 		(uuid "2987b266-d6a9-46e8-98d5-d0c816e3a446")
+	)
+	(wire
+		(pts
+			(xy 35.56 367.03) (xy 35.56 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6bf80b-70ab-4cd6-8160-d95350390c54")
 	)
 	(wire
 		(pts
@@ -8394,7 +8420,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 358.14) (xy 58.42 358.14)
+			(xy 46.99 358.14) (xy 58.42 358.14)
 		)
 		(stroke
 			(width 0)
@@ -9041,6 +9067,16 @@
 			(type default)
 		)
 		(uuid "c224ffd1-a5a3-4584-98c3-c4832ea32476")
+	)
+	(wire
+		(pts
+			(xy 35.56 360.68) (xy 36.83 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d626b9-81ba-4550-a16c-f1dd4e5127f4")
 	)
 	(wire
 		(pts
@@ -9914,7 +9950,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 355.6) (xy 43.18 355.6)
+			(xy 34.29 355.6) (xy 36.83 355.6)
 		)
 		(stroke
 			(width 0)
@@ -10133,7 +10169,7 @@
 		(uuid "4357ccd4-898a-4c9d-bdde-3a7a7d6fb2cc")
 	)
 	(label "SEQ_CLOCK_IN"
-		(at 40.64 355.6 180)
+		(at 34.29 355.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12793,7 +12829,7 @@
 		(dnp no)
 		(uuid "30283017-b21e-485b-a4d7-4cab32463053")
 		(property "Reference" "D6"
-			(at 173.736 424.18 90)
+			(at 173.99 426.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,8 +12837,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 172.466 425.45 0)
+		(property "Value" "1N4148"
+			(at 178.816 429.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,7 +14615,7 @@
 		(dnp no)
 		(uuid "482f19c5-0c8c-4c0a-9f80-4875a63fd245")
 		(property "Reference" "D12"
-			(at 267.716 424.18 90)
+			(at 269.24 426.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,8 +14623,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 266.446 425.45 0)
+		(property "Value" "1N4148"
+			(at 272.796 429.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +14753,7 @@
 		(dnp no)
 		(uuid "49090e21-2f19-435d-be3d-af6ecb4d54e5")
 		(property "Reference" "D4"
-			(at 141.986 424.18 90)
+			(at 142.24 426.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,8 +14761,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 140.716 425.45 0)
+		(property "Value" "1N4148"
+			(at 147.066 429.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15105,6 +15141,71 @@
 			(project "NU31-HackerSynth"
 				(path "/151a4108-ccd8-4864-9fa1-a2e140a3decb"
 					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 367.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a6c5ef-c07c-4287-a374-cc74cafe8ccb")
+		(property "Reference" "#PWR056"
+			(at 35.56 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 371.5925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65050b41-12e1-4421-acff-5a650197538f")
+		)
+		(instances
+			(project "NU31-HackerSynth"
+				(path "/151a4108-ccd8-4864-9fa1-a2e140a3decb"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -16633,6 +16734,71 @@
 			(project "NU31-HackerSynth"
 				(path "/151a4108-ccd8-4864-9fa1-a2e140a3decb"
 					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 367.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c97cf74-1482-42a5-97f1-79fd0b738a51")
+		(property "Reference" "#PWR055"
+			(at 49.53 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 371.5925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9956243c-498a-4adf-96de-705f19314eb7")
+		)
+		(instances
+			(project "NU31-HackerSynth"
+				(path "/151a4108-ccd8-4864-9fa1-a2e140a3decb"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -19742,7 +19908,7 @@
 	(symbol
 		(lib_name "SW_SPDT_1")
 		(lib_id "Switch:SW_SPDT")
-		(at 48.26 358.14 0)
+		(at 41.91 358.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19752,7 +19918,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a99d0ab-777c-4db1-99ed-3994d34ed74d")
 		(property "Reference" "SW2"
-			(at 48.26 349.25 0)
+			(at 41.91 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19760,7 +19926,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 48.26 351.79 0)
+			(at 41.91 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19768,7 +19934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 358.14 0)
+			(at 41.91 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +19943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 365.76 0)
+			(at 41.91 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19786,7 +19952,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 48.26 358.14 0)
+			(at 41.91 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20185,7 +20351,7 @@
 		(dnp no)
 		(uuid "9e8d6f1a-c7c6-4898-a62b-c757234d59fc")
 		(property "Reference" "D8"
-			(at 205.486 424.18 90)
+			(at 205.74 426.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20193,8 +20359,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 204.216 425.45 0)
+		(property "Value" "1N4148"
+			(at 210.566 429.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20607,7 +20773,7 @@
 		(dnp no)
 		(uuid "aa72daa8-28a8-4c9c-91c0-453946a30264")
 		(property "Reference" "D14"
-			(at 298.196 424.18 90)
+			(at 299.466 426.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20615,8 +20781,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 296.926 425.45 0)
+		(property "Value" "1N4148"
+			(at 303.276 429.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22046,7 +22212,7 @@
 		(dnp no)
 		(uuid "c872cb67-6eda-478c-b72c-2a78a83e1acc")
 		(property "Reference" "D10"
-			(at 237.236 424.18 90)
+			(at 238.506 426.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22054,8 +22220,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 235.966 425.45 0)
+		(property "Value" "1N4148"
+			(at 242.316 429.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23904,7 +24070,7 @@
 		(dnp no)
 		(uuid "f8662307-6f6e-4722-9dd2-6e66826c001e")
 		(property "Reference" "D18"
-			(at 362.966 424.18 90)
+			(at 362.712 421.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23912,8 +24078,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 361.696 425.45 0)
+		(property "Value" "1N4148"
+			(at 366.522 424.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24642,7 +24808,7 @@
 		(dnp no)
 		(uuid "ff0ed5c8-2d1c-49d3-bb74-36e970bba3f2")
 		(property "Reference" "D16"
-			(at 331.216 424.18 90)
+			(at 332.486 426.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24650,8 +24816,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N5818"
-			(at 329.946 425.45 0)
+		(property "Value" "1N4148"
+			(at 336.296 429.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
