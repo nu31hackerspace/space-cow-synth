@@ -8832,7 +8832,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 1.25 -3.75 0)
+			(at 3.45 -2.95 0)
 			(layer "F.SilkS")
 			(uuid "5b3bf075-7cc7-4a8e-9439-e73460367e1e")
 			(effects
@@ -8844,7 +8844,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0.25 1.55 0)
+			(at -0.75 -2.95 0)
 			(layer "F.SilkS")
 			(uuid "79b81e29-2d6b-43e8-8768-7d7f30a9121d")
 			(effects
@@ -11105,7 +11105,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C13"
-			(at 4.455112 -2.25 180)
+			(at 4.355112 -2.5 180)
 			(layer "F.SilkS")
 			(uuid "d0f35af8-bc2f-4bd4-9e06-652eb71333d3")
 			(effects
@@ -11117,7 +11117,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 0.455112 -2.25 180)
+			(at 4.255112 2.2 180)
 			(layer "F.SilkS")
 			(uuid "65106a37-a0f7-496c-a8dc-3225d808ccf4")
 			(effects
@@ -13171,7 +13171,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C9"
-			(at 4 -2.75 180)
+			(at 4 -2.6 180)
 			(layer "F.SilkS")
 			(uuid "cb4f1034-2e73-45f3-bae9-96e47a43f6b3")
 			(effects
@@ -13183,7 +13183,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0.25 -2 180)
+			(at 4 2.3 180)
 			(layer "F.SilkS")
 			(uuid "936c2598-cd10-4cb9-8fde-eac623546313")
 			(effects
@@ -22796,7 +22796,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C12"
-			(at 1.25 -3.75 0)
+			(at 2.805112 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "f7571647-d34d-4fee-ba3d-effcb4f20294")
 			(effects
@@ -22808,7 +22808,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at -0.044888 1.45 0)
+			(at -0.394888 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "3544d00d-84b7-41ca-aa6b-afe3855437d9")
 			(effects
@@ -33844,7 +33844,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C11"
-			(at 1.25 -3.75 0)
+			(at 2.905112 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "e83d5751-93d7-4355-aa7b-fc22a6ff7fc4")
 			(effects
@@ -33856,7 +33856,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at -0.044888 1.5 0)
+			(at -0.594888 -3.25 0)
 			(layer "F.SilkS")
 			(uuid "1d419094-4bef-417c-b862-7c1746acd3f9")
 			(effects
