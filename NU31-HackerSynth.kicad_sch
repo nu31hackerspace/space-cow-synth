@@ -20191,7 +20191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpaceCow:ToggleSwitch_MTS-202_DPDT"
+		(property "Footprint" "SpaceCow:DPDT-subminiature-toggle"
 			(at 53.34 154.94 0)
 			(effects
 				(font

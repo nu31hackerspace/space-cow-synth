@@ -1,0 +1,162 @@
+(footprint "DPDT-subminiature-toggle"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at -4.35 -7.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f2776de7-2568-4509-bbd7-05fe9c6f5f6b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SW_DPDT"
+		(at 0.05 -0.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f3943b6-ef7c-4b93-93df-d5b13b175340")
+		(effects
+			(font
+				(size 0.8 0.65)
+				(thickness 0.15)
+				(italic yes)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b27f805-4000-4615-b5f1-a72ff20b4054")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Momentary Switch, dual pole double throw"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f5092b3-5f06-4ca4-9169-53c6d5a6a617")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.57 -4.065)
+		(end 4.57 4.065)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f7d5c17e-1bf0-43d4-8f00-271949ab13e0")
+	)
+	(fp_arc
+		(start -2.049263 -0.801886)
+		(mid 0.001012 -2.200568)
+		(end 2.05 -0.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f4b4465-7edc-44c9-9aed-9b5441b565a8")
+	)
+	(fp_arc
+		(start 2.049999 0.800001)
+		(mid -0.000001 2.200568)
+		(end -2.05 0.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be9093eb-5cf4-4592-8a74-e633d12a92cb")
+	)
+	(fp_circle
+		(center -0.000416 0)
+		(end 3.499584 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c5c8db71-6175-4c70-8484-c1bd001d40d6")
+	)
+	(pad "1" thru_hole oval
+		(at -2.5 -2.5 90)
+		(size 1.4 1.8)
+		(drill oval 0.8 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c47a18ec-3b04-49ae-8c27-69196e6b6f91")
+	)
+	(pad "2" thru_hole oval
+		(at -2.54 0 90)
+		(size 1.4 1.8)
+		(drill oval 0.8 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34fdd7c4-5775-47c5-b6d2-a6c16b1e285d")
+	)
+	(pad "3" thru_hole oval
+		(at -2.54 2.54)
+		(size 1.8 1.4)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cd4a637-861f-48db-b80a-07fc48b7f4c9")
+	)
+	(pad "4" thru_hole oval
+		(at 2.54 -2.54 90)
+		(size 1.4 1.8)
+		(drill oval 0.8 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47ddf4b5-caf9-4cda-9dab-32795d953ec4")
+	)
+	(pad "5" thru_hole oval
+		(at 2.54 0 90)
+		(size 1.4 1.8)
+		(drill oval 0.8 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de11eede-954d-4a89-b27b-e12221657997")
+	)
+	(pad "6" thru_hole oval
+		(at 2.54 2.54)
+		(size 1.8 1.4)
+		(drill oval 1.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9109062d-efaf-4dc3-adbb-cc2e65627200")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Acer/Desktop/Synth DIY/Step 3D Models/6mm DPDT Mini Toggle Switch.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
