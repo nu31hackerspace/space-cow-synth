@@ -3594,182 +3594,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SW_SPDT_1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push_DPDT"
 			(pin_names
 				(offset 0)
@@ -4631,6 +4455,270 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Slide_DPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Slide_DPDT"
+				(at 0 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 13.97 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Slide_DPDT_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_1_1"
+				(rectangle
+					(start -1.397 5.588)
+					(end -0.762 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.762 5.588)
+					(end 1.397 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC547"
 			(pin_names
 				(offset 0)
@@ -5422,7 +5510,7 @@
 	)
 	(text "Tone"
 		(exclude_from_sim no)
-		(at 143.51 129.286 0)
+		(at 138.43 127.762 0)
 		(effects
 			(font
 				(size 4 4)
@@ -5597,6 +5685,12 @@
 		(uuid "2f3b4623-ce9b-40e1-9dd2-27ea742da190")
 	)
 	(junction
+		(at 29.21 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f50662d-0753-4faf-9053-252c216b1ea1")
+	)
+	(junction
 		(at 358.14 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5649,6 +5743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4277c995-bd36-4324-b6c8-111c4f4a4257")
+	)
+	(junction
+		(at 29.21 358.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4327d130-0be4-4c7d-8402-6d011c02d3c8")
 	)
 	(junction
 		(at 342.9 275.59)
@@ -6324,6 +6424,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 349.25) (xy 41.91 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016a6589-3a01-4c5f-a771-bd49ac00970b")
+	)
+	(wire
+		(pts
 			(xy 229.87 435.61) (xy 229.87 431.8)
 		)
 		(stroke
@@ -6414,6 +6524,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 363.22) (xy 40.64 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b6315e-03e0-4ca7-92ca-efe1dd884fa4")
+	)
+	(wire
+		(pts
 			(xy 354.33 73.66) (xy 358.14 73.66)
 		)
 		(stroke
@@ -6491,6 +6611,16 @@
 			(type default)
 		)
 		(uuid "0ad3b769-c566-4e15-8cf9-f0eab31f6227")
+	)
+	(wire
+		(pts
+			(xy 30.48 363.22) (xy 29.21 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb22303-87e1-43d5-84a7-b416e2c2605d")
 	)
 	(wire
 		(pts
@@ -6904,6 +7034,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 353.06) (xy 29.21 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fdfb21-b325-41fe-b6a0-07e867af0757")
+	)
+	(wire
+		(pts
 			(xy 83.82 520.7) (xy 83.82 515.62)
 		)
 		(stroke
@@ -7114,7 +7254,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 368.3) (xy 31.75 360.68)
+			(xy 41.91 368.3) (xy 41.91 363.22)
 		)
 		(stroke
 			(width 0)
@@ -7181,6 +7321,16 @@
 			(type default)
 		)
 		(uuid "2e9d21b0-aa3e-4a4c-9fc6-c3e326b3aab4")
+	)
+	(wire
+		(pts
+			(xy 41.91 353.06) (xy 40.64 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2df23b-cab7-4ffd-b4ac-8523c78dc222")
 	)
 	(wire
 		(pts
@@ -7644,6 +7794,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 353.06) (xy 29.21 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab986da-2a0e-487d-b2dc-9c6225eca155")
+	)
+	(wire
+		(pts
 			(xy 66.04 165.1) (xy 66.04 181.61)
 		)
 		(stroke
@@ -7761,6 +7921,16 @@
 			(type default)
 		)
 		(uuid "503be122-539a-42ba-85a8-b23682bd2ea8")
+	)
+	(wire
+		(pts
+			(xy 29.21 368.3) (xy 29.21 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508a9807-c7cc-4276-8894-8dffe463f6d4")
 	)
 	(wire
 		(pts
@@ -10144,16 +10314,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 360.68) (xy 33.02 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2d626b9-81ba-4550-a16c-f1dd4e5127f4")
-	)
-	(wire
-		(pts
 			(xy 130.81 262.89) (xy 130.81 265.43)
 		)
 		(stroke
@@ -10201,6 +10361,16 @@
 			(type default)
 		)
 		(uuid "c6099544-a542-4b82-a366-1e8a11d579a5")
+	)
+	(wire
+		(pts
+			(xy 29.21 358.14) (xy 30.48 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64c7367-2e84-499a-b161-47d7f7edb0e8")
 	)
 	(wire
 		(pts
@@ -10724,7 +10894,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 358.14) (xy 44.45 358.14)
+			(xy 40.64 358.14) (xy 44.45 358.14)
 		)
 		(stroke
 			(width 0)
@@ -10851,6 +11021,16 @@
 			(type default)
 		)
 		(uuid "eba1bc5b-ed50-4753-9e38-d2b48eea2809")
+	)
+	(wire
+		(pts
+			(xy 29.21 363.22) (xy 29.21 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec488a1f-da56-4677-a6b3-a33111c4856d")
 	)
 	(wire
 		(pts
@@ -11114,7 +11294,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 355.6) (xy 33.02 355.6)
+			(xy 30.48 349.25) (xy 41.91 349.25)
 		)
 		(stroke
 			(width 0)
@@ -11353,7 +11533,7 @@
 		(uuid "44e9ca3f-6564-4de4-ac8d-b4a6665898d0")
 	)
 	(label "SEQ_CLOCK_IN"
-		(at 30.48 355.6 180)
+		(at 30.48 349.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11655,6 +11835,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -11724,6 +11905,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -11790,6 +11972,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -11838,6 +12021,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 29.21 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "049571c5-309f-49fa-ba3d-d7e6aac1a7a4")
+		(property "Reference" "#PWR064"
+			(at 29.21 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 372.8625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce6cd613-9439-4616-b54d-1eedeb32da4b")
+		)
+		(instances
+			(project "NU31-HackerSynth"
+				(path "/151a4108-ccd8-4864-9fa1-a2e140a3decb"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 365.76 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11860,6 +12109,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -11924,6 +12174,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12010,6 +12261,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12079,6 +12331,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -12148,6 +12401,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12213,6 +12467,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12300,6 +12555,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -12411,6 +12667,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12475,6 +12732,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12541,7 +12799,6 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 39.37 556.26 0)
-		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12549,7 +12806,7 @@
 		(dnp no)
 		(uuid "10d5db86-286a-4982-9dd6-b51dbf3f14b9")
 		(property "Reference" "U7"
-			(at 39.37 554.99 0)
+			(at 39.37 557.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,10 +12815,11 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 39.37 557.53 0)
+			(at 39.37 554.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -12649,6 +12907,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12736,6 +12995,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12802,6 +13062,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -12868,6 +13129,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -12955,6 +13217,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -13022,6 +13285,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -13093,6 +13357,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13165,6 +13430,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13228,6 +13494,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13297,6 +13564,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -13400,6 +13668,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -13470,6 +13739,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13536,6 +13806,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -13605,6 +13876,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -13699,6 +13971,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13764,6 +14037,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13833,6 +14107,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -13901,6 +14176,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -13970,6 +14246,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -14040,6 +14317,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -14128,6 +14406,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -14197,6 +14476,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14263,6 +14543,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -14332,6 +14613,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -14402,6 +14684,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -14471,6 +14754,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14539,6 +14823,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14626,6 +14911,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -14694,6 +14980,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14781,6 +15068,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14845,6 +15133,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14912,6 +15201,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -14979,6 +15269,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15048,6 +15339,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -15117,6 +15409,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15234,6 +15527,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -15304,6 +15598,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -15376,6 +15671,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -15444,6 +15740,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -15512,6 +15809,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15581,6 +15879,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15646,6 +15945,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15712,6 +16012,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -15781,6 +16082,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15849,6 +16151,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15918,6 +16221,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -15983,11 +16287,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_A-405_P10.16mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 117.8052 275.59 0)
 			(effects
 				(font
@@ -16053,6 +16358,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -16125,6 +16431,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -16190,6 +16497,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -16259,6 +16567,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -16328,6 +16637,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -16397,6 +16707,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -16461,6 +16772,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -16529,6 +16841,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -16594,6 +16907,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -16663,6 +16977,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -16710,7 +17025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 368.3 0)
+		(at 41.91 368.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16719,7 +17034,7 @@
 		(fields_autoplaced yes)
 		(uuid "50a6c5ef-c07c-4287-a374-cc74cafe8ccb")
 		(property "Reference" "#PWR056"
-			(at 31.75 374.65 0)
+			(at 41.91 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16728,15 +17043,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 372.8625 0)
+			(at 41.91 372.8625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 368.3 0)
+			(at 41.91 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16745,7 +17061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 368.3 0)
+			(at 41.91 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16754,7 +17070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 368.3 0)
+			(at 41.91 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16797,6 +17113,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -16869,6 +17186,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -16935,6 +17253,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17001,6 +17320,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17065,6 +17385,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17130,6 +17451,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -17197,6 +17519,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -17266,6 +17589,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17332,6 +17656,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17398,6 +17723,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -17468,6 +17794,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -17537,6 +17864,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17603,6 +17931,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -17672,6 +18001,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17736,6 +18066,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17804,6 +18135,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17873,6 +18205,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -17939,6 +18272,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18004,6 +18338,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18070,6 +18405,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -18140,6 +18476,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -18243,6 +18580,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -18312,6 +18650,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -18381,6 +18720,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18445,6 +18785,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18514,6 +18855,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -18584,6 +18926,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -18656,6 +18999,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18721,6 +19065,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18786,6 +19131,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -18859,6 +19205,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -18929,6 +19276,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -18994,6 +19342,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19063,6 +19412,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -19130,6 +19480,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19195,6 +19546,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -19261,6 +19613,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19326,6 +19679,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19395,6 +19749,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -19464,6 +19819,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -19533,6 +19889,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19602,6 +19959,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -19689,6 +20047,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19760,6 +20119,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -19827,10 +20187,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "SpaceCow:ToggleSwitch_MTS-202_DPDT"
 			(at 53.34 154.94 0)
 			(effects
 				(font
@@ -19907,6 +20268,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -19976,6 +20338,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -20046,6 +20409,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -20116,6 +20480,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -20186,6 +20551,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -20252,6 +20618,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -20318,6 +20685,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -20388,6 +20756,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -20457,6 +20826,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -20525,6 +20895,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -20593,6 +20964,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -20665,6 +21037,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -20733,6 +21106,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -20835,6 +21209,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -20921,6 +21296,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -20991,6 +21367,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21056,6 +21433,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21121,6 +21499,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21189,6 +21568,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -21258,6 +21638,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21327,6 +21708,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -21396,6 +21778,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -21465,6 +21848,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -21532,6 +21916,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -21604,6 +21989,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21670,6 +22056,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21756,6 +22143,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21824,6 +22212,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -21870,19 +22259,17 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_SPDT_1")
-		(lib_id "Switch:SW_SPDT")
-		(at 38.1 358.14 0)
+		(lib_id "Switch:SW_Slide_DPDT")
+		(at 35.56 358.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a99d0ab-777c-4db1-99ed-3994d34ed74d")
 		(property "Reference" "SW2"
-			(at 38.1 349.25 0)
+			(at 25.908 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21890,15 +22277,16 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 38.1 351.79 0)
+			(at 23.876 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 38.1 358.14 0)
+		(property "Footprint" "SpaceCow:8x8_DPDT_Push_Button"
+			(at 21.59 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21907,7 +22295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 365.76 0)
+			(at 35.56 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21915,8 +22303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 38.1 358.14 0)
+		(property "Description" "Slide Switch, dual pole double throw"
+			(at 35.56 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21932,6 +22320,15 @@
 		)
 		(pin "2"
 			(uuid "083b0927-f503-48c9-8b2b-8934608e297e")
+		)
+		(pin "5"
+			(uuid "b63005bb-47b3-40f5-b2e0-2699b11d91cc")
+		)
+		(pin "6"
+			(uuid "924df6bd-3afa-414c-9faa-61d4e01ebdf7")
+		)
+		(pin "4"
+			(uuid "04c877e9-1851-4ed9-844c-defeaf907cb4")
 		)
 		(instances
 			(project ""
@@ -21966,6 +22363,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -22031,6 +22429,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -22099,6 +22498,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -22168,6 +22568,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -22255,6 +22656,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -22328,6 +22730,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -22397,6 +22800,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -22467,6 +22871,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -22536,6 +22941,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -22599,11 +23005,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "GREEN"
 			(at 152.4 503.5551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -22677,6 +23084,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -22750,6 +23158,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -22818,6 +23227,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -22886,6 +23296,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -22958,6 +23369,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -23030,6 +23442,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23096,6 +23509,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23162,6 +23576,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23227,6 +23642,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23292,6 +23708,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23379,6 +23796,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23445,6 +23863,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23510,6 +23929,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23579,6 +23999,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23644,6 +24065,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23710,6 +24132,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -23780,6 +24203,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23845,6 +24269,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -23915,6 +24340,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -23980,6 +24406,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -24047,6 +24474,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -24119,6 +24547,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -24189,6 +24618,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -24258,6 +24688,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -24326,6 +24757,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -24393,6 +24825,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -24463,6 +24896,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -24529,6 +24963,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -24598,6 +25033,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -24667,6 +25103,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -24735,6 +25172,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -24808,6 +25246,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -24872,6 +25311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -24940,6 +25380,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -25010,6 +25451,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -25075,6 +25517,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -25163,6 +25606,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -25228,6 +25672,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -25296,6 +25741,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -25382,6 +25828,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -25476,6 +25923,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -25547,6 +25995,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -25650,6 +26099,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -25717,6 +26167,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -25785,6 +26236,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -25872,6 +26324,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -25937,6 +26390,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
@@ -26004,6 +26458,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -26076,6 +26531,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -26145,6 +26601,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -26210,6 +26667,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -26297,6 +26755,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -26346,7 +26805,6 @@
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 237.49 300.99 0)
-		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26354,7 +26812,7 @@
 		(dnp no)
 		(uuid "f9eee98b-410e-4cfe-9e47-d97f6e7d873a")
 		(property "Reference" "U6"
-			(at 236.474 299.72 0)
+			(at 236.474 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26363,10 +26821,11 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 236.474 302.26 0)
+			(at 236.474 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -26454,6 +26913,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -26541,6 +27001,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -26606,6 +27067,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
 			)
@@ -26675,6 +27137,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify right)
 			)
