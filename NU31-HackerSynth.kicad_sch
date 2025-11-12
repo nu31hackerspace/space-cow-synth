@@ -5467,7 +5467,7 @@
 		)
 		(uuid "52da1cdf-ebf0-4946-98ef-dc89d91c21e6")
 	)
-	(text "External Clock Output"
+	(text "Clock Output"
 		(exclude_from_sim no)
 		(at 376.428 263.144 0)
 		(effects
@@ -14244,7 +14244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 323.85 429.2599 0)
 			(effects
 				(font
@@ -14611,7 +14611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 290.83 429.2599 0)
 			(effects
 				(font
@@ -15267,7 +15267,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 119.38 514.35 90)
 			(effects
 				(font
@@ -15807,7 +15807,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "3k3"
 			(at 198.12 176.53 0)
 			(effects
 				(font
@@ -16010,7 +16010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 198.12 429.2599 0)
 			(effects
 				(font
@@ -17517,7 +17517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 166.37 429.2599 0)
 			(effects
 				(font
@@ -18133,7 +18133,7 @@
 				)
 			)
 		)
-		(property "Value" "50n"
+		(property "Value" "10n"
 			(at 318.77 40.64 90)
 			(effects
 				(font
@@ -18768,7 +18768,6 @@
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
 		(at 332.74 491.49 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18776,7 +18775,7 @@
 		(dnp no)
 		(uuid "68517442-4bd1-4fac-aa22-ba34fa530931")
 		(property "Reference" "J3"
-			(at 332.74 500.38 0)
+			(at 332.74 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18784,7 +18783,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 332.74 497.84 0)
+			(at 332.74 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18793,7 +18792,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002"
-			(at 334.01 490.474 0)
+			(at 334.01 492.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18802,7 +18801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 490.474 0)
+			(at 334.01 492.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20266,7 +20265,7 @@
 				)
 			)
 		)
-		(property "Value" "50n"
+		(property "Value" "10n"
 			(at 109.22 39.37 90)
 			(effects
 				(font
@@ -20407,7 +20406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 355.6 429.2599 0)
 			(effects
 				(font
@@ -22141,7 +22140,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 119.38 499.11 90)
 			(effects
 				(font
@@ -24464,7 +24463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 260.35 429.2599 0)
 			(effects
 				(font
@@ -25840,7 +25839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 134.62 429.2599 0)
 			(effects
 				(font
@@ -26672,7 +26671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R51k"
+		(property "Value" "51k"
 			(at 229.87 429.2599 0)
 			(effects
 				(font
